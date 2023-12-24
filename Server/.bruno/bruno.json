@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Tanglish",
+  "type": "collection",
+  "presets": {
+    "requestType": "http",
+    "requestUrl": "http://127.0.0.1:5000"
+  }
+}

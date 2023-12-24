@@ -1,0 +1,21 @@
+meta {
+  name: BERT Test
+  type: http
+  seq: 10
+}
+
+post {
+  url: http://127.0.0.1:42070
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "sentences": [
+      "thala ajith mass",
+      "rajini top tucker",
+      "hindi padam maari iruku"
+    ]
+  }
+}

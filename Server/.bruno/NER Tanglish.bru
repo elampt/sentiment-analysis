@@ -1,0 +1,17 @@
+meta {
+  name: NER Tanglish
+  type: http
+  seq: 8
+}
+
+post {
+  url: http://127.0.0.1:5000/ner/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "text": "India, Australia, Sri Lanka. Madhavaram, Thiruvotriyur. Eruthi pooti vienna vil june 29 nadakuthu"
+  }
+}

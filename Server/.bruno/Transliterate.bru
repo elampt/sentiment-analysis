@@ -1,0 +1,17 @@
+meta {
+  name: Transliterate
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://127.0.0.1:5000/transliterate/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "text": "Naan Oru thadava sonna, nooru thadava sonna maadiri.Gandhiyoda paiyan Gandhi ya Sir? Godse oda paiyan Godse va Sir?Kadavul irrukunu solran par, avana nambala. kadavul illanu solaranparu, avanakooda nambalam. ana naan than kadavul nu solran paru… avana mattum nambathe."
+  }
+}
